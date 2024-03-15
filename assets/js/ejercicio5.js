@@ -24,4 +24,4 @@ function ContadorSilabas(p) {
     return silabas;
 }
 let palabra = prompt("Ingrese la palabra");
-console.log(countSyllables(palabra));
+console.log(ContadorSilabas(palabra));
