@@ -6,7 +6,14 @@ function inverso(n) {
     for (let i = 0; i < n; i++) {
         let numero = parseInt(prompt("Ingrese el numero que quiere hallarle el inverso aditivo"));
         if (numero < 0) {
-            
+            let nuevo = numero * -1;
+            console.log(nuevo)
+        }
+        else{
+            if (numero > 0) {
+                let nuevo = numero * (-1);
+                console.log(nuevo);
+            }
         }
     }
 }
